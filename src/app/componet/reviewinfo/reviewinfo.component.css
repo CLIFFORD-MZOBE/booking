@@ -1,0 +1,32 @@
+#Next {
+    
+    background-color:rgb(60, 60, 60);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(180, 180, 180);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50);
+}
+#Next:hover {
+    background-color: rgb(180, 180, 180);
+}
+h2{
+    background-color: lightgrey;
+    width: 700px;
+    border: 13px solid rgb(60, 60, 60);
+    padding: 25px;
+    margin: 25px;
+    color: rgb(60, 60, 60);
+    
+
+}

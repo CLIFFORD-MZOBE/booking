@@ -1,0 +1,22 @@
+<div id = "body">
+  <h1>Booking Form</h1>
+  <div id = "content">
+     
+    <form >
+      Email:<br>
+      <input type = "email" name = "email" [(ngModel)]="email" placeholder="e.g abcdef@gmail.com"><br>
+      Name:<br>
+      <input type = "text" name = "name" [(ngModel)]="fname" placeholder="e.g abc"><br>
+     Type of Room:<br>
+      <input type = "text" name = "room" [(ngModel)]="room" placeholder="Double or Single"><br>
+      Contacts Number:<br>
+      <input type = "text" name = "contact" [(ngModel)]="contact" placeholder="e.g 0721568954"><br>
+      Date(Checked In):<br>
+      <input type = "Date" name = "date" [(ngModel)]="date" placeholder="e.g 12-12-2017"><br>
+      
+      
+    </form>
+    
+</div>
+<button id = "Next" (click) ="toreview()" value="submit">Submit form</button>
+</div>

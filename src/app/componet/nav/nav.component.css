@@ -1,0 +1,10 @@
+h1{
+float: left;
+    color: white;
+    margin-left: 20px;
+    
+}
+
+h1:hover {
+    background-color: rgb(180, 180, 180);
+    border-radius: 25px;};

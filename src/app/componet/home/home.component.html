@@ -1,0 +1,11 @@
+
+  <header>
+    <nav>
+      <app-nav *ngFor = "let page of pages" [page]="pages.page" [name]="page.name"></app-nav>
+    </nav>
+  </header>
+
+<div id = "content">
+
+</div>
+<router-outlet></router-outlet>
